@@ -1,0 +1,60 @@
+.third-section {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 400px; 
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  .image-center {
+    width: 100%; 
+    max-width: 800px; 
+    height: auto;
+  }
+  
+
+  .section-heading {
+    margin-top: 420px;
+    font-family: 'Playpen Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .text-box {
+    margin-top: -5px; 
+    font-family: 'Playpen Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 600px;
+    text-align: center; 
+  }
+  
+
+  .carousel-button {
+    position: absolute;
+    top: 200px;
+    color: rgb(227, 181, 63);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 60px;
+    z-index: 6;
+    
+  }
+  
+  .carousel-button.left {
+    left: 90px;
+  }
+  
+  .carousel-button.right {
+    right: 90px;
+  }
+  

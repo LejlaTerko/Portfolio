@@ -1,0 +1,96 @@
+.first-section {
+  min-height: 100vh; 
+  background-image: url('../images/baggrund.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  padding: 0;
+  margin: 0;
+  position: relative; 
+
+}
+
+.image-container {
+  position: relative;
+  width: 40%; 
+  
+}
+
+.image-paper {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 790px;
+  z-index: 0;
+  transform: scaleX(-1);
+  margin-top: 80px;
+}
+
+.image-first {
+  position: relative;
+  width: 25%;
+  height: auto;
+  left: -350px;
+  transform: rotate(-5deg);
+  z-index: 2;
+  top: 100px;
+}
+
+.image-second {
+  position: absolute;
+  top: 370px;
+  left: 30%;
+  width: 20%;
+  height: auto;
+  transform: rotate(15deg);
+  z-index: 3;
+}
+
+.image-kiss {
+  position: absolute;
+  bottom: 10px;
+  top: 490px;
+  left: 8%;
+  width: 10%;
+  height: auto;
+  transform: rotate(10deg);
+  z-index: 4;
+}
+
+.text-box-overskrift {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  left: 40%;
+  z-index: 5;
+  top: 130px; 
+  font-family: 'Playpen Sans', sans-serif;
+}
+
+.text-overlay {
+  position: absolute;
+  font-family: 'Playpen Sans', sans-serif;
+  top: 200px; 
+  right: 200px; 
+  width: 500px; 
+  padding: 20px;
+  color: rgb(0, 0, 0); 
+  z-index: 10; 
+  text-align: center;
+  border-radius: 10px;
+  line-height: 1cm; 
+  
+}
+
+.image-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.image-button img {
+  display: block;
+  width: 100px; 
+  height: auto;
+  left: 300px;
+}
